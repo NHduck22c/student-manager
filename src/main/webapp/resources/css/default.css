@@ -1,0 +1,226 @@
+body {
+    background: #202020;
+    font-size: 12pt;
+    font-weight: 200;
+    color: #444444;
+}
+
+h1 {
+    font-weight: 400;
+    color: #FFF;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #2980b9;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    overflow: hidden;
+    margin: 40px auto;
+    display: flex;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+#header {
+    position: relative;
+    width: 300px;
+    padding: 3em 0 1em;
+}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+#logo {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 4em;
+}
+
+#logo img {
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+    margin-bottom: 1em;
+    border-radius: 50%;
+}
+
+#logo h1 {
+    display: block;
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+#menu li {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#menu li a {
+    display: block;
+    padding: 2em 1.5em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#menu .current_page_item a {
+    background: #F96666;
+    color: rgba(255, 255, 255, 1);
+}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+#page {
+    background: #7895B2;
+}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+#main {
+    flex: 1 1 auto;
+    height: 700px;
+    overflow: hidden;
+    float: right;
+    padding: 2em 50px 1em 50px;
+    background: #f9f9f9;
+    border-top: 6px solid #F96666;
+    text-align: center;
+}
+
+button {
+
+}
+
+.top {
+    /*width: 800px;*/
+}
+
+.table {
+    margin-top: 110px;
+    height: 470px;
+}
+
+.btn-add {
+    height: 38px;
+    float: left;
+    margin-top: 30px;
+}
+
+.find {
+    float: right;
+    margin-top: 30px;
+}
+
+#find-text {
+    width: 250px;
+    height: 30px;
+}
+
+.find-btn {
+    height: 30px;
+}
+
+.table-input {
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #e6e6e6;
+    background: transparent;
+}
+
+.update-btn {
+    font-weight: 100 !important;
+    font-size: 16px !important;
+    color: #2980b9 !important;
+    cursor: pointer !important;
+    border: none !important;
+    background: transparent !important;
+    text-decoration: underline !important;
+}
+
+.update-btn:hover {
+    text-decoration: none !important;
+}
+
+.detail-img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.detail-form {
+    margin-top: 20px;
+}
+
+.detail-input {
+    height: 35px;
+    margin-bottom: 10px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#index {
+    margin-top: 20px;
+}
+
+
+/* custom */
+button, input[type=submit] {
+    background-color: #F96666;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+button:hover,
+button:focus,
+input[type=submit]:hover,
+input[type=submit]:focus {
+    background-color: #ce5a5a;
+}
